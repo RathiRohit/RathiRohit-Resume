@@ -30,7 +30,8 @@
 		\begin{minipage}[b]{0.33333\textwidth}
 			\raggedleft
 			(+91)8275128655\par
-			rathirohitg1997@gmail.com
+			rathirohitg1997@gmail.com\par
+			github.com/RathiRohit\par
 		\end{minipage}%
 		\bigskip
 		\hrule
@@ -72,9 +73,10 @@
 						\item C++, C, Java, Python
 						\item JavaScript, HTML, CSS
 						\item JavaFX, DJango, Bootstrap, Unity
-						\item Algorithms, Data structures, Web Development
+						\item Web Development, Image Processing, Software Development
 					\end{itemize}
 				}
+				\small \textbf{Algorithms, Data structures, Web Development \& DBMS}
 			\end{LARGE}
 		\end{minipage}%
 		\begin{minipage}[t]{0.65\textwidth}
@@ -173,30 +175,37 @@
 		\linebreak\linebreak\linebreak\linebreak
 		\begin{minipage}[t]{0.36\textwidth}
 			\raggedright
-			\begin{LARGE}
+			\begin{large}
 				\textbf{Publications:}\linebreak\linebreak%
 				{\small
 				\textbf{Graphics With C} | A C-Graphics blog with some experimental programs\linebreak\href{https://graphicswithc.wordpress.com/}{Visit here}.
 				}
-			\end{LARGE}
+			\end{large}
 		\end{minipage}%
 		\begin{minipage}[t]{0.36\textwidth}
 			\raggedright
-			\begin{LARGE}
+			\begin{large}
 				\textbf{References:}\linebreak\linebreak%
-				{\small
-					- \href{https://tex.stackexchange.com}{tex.stackexchange.com}\linebreak
-					- \href{https://github.com/lohitpenu/Internship-eYSIP-2018}{IITB eYSIP LaTex \& GIT tutorial}\linebreak
-					- \href{https://www.latex-tutorial.com}{LaTex-Tutorial}
+				{\small For certificates \href{https://graphicswithc.wordpress.com/}{visit here}
 				}
-			\end{LARGE}
+			\end{large}
 		\end{minipage}%
 		\begin{minipage}[t]{0.28\textwidth}
 			\raggedright
 			\begin{large}
 				\textbf{Training \& Internships:}\linebreak\linebreak%
 				{\small Nothing to show here yet!}
-			\end{LARGE}
+			\end{large}
+		\end{minipage}%
+		\linebreak\linebreak\linebreak\linebreak
+		\textbf{Declaration:} I hereby declare that all the information provided in this resume is true to the best of my knowledge and belief.\linebreak\linebreak\linebreak
+		\begin{minipage}[t]{0.5\textwidth}
+			\raggedright
+			\textbf{Date:} 19-Apr-2018
+		\end{minipage}%
+		\begin{minipage}[t]{0.5\textwidth}
+			\raggedleft
+			Rohit Girish Rathi
 		\end{minipage}%
 	\end{center}
 \end{document}
