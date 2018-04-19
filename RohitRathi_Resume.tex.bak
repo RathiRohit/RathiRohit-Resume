@@ -3,7 +3,6 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{tabu}
-\usepackage{easytable}
 \usepackage{booktabs}
 \usepackage{hyperref}
 \graphicspath{{Images/}}
@@ -133,19 +132,18 @@
 		\raggedright\smallskip
 		\begin{LARGE}
 			\textbf{Education:}
-			\medskip%
-			{\small
-				\begin{table}[h!]
-    				\begin{tabular}{|p{2in}|c|c|c|}
-				        \hline
-				        a & a & a & a \\ \hline
-				        a & a & a & a \\ \hline
-				        a & a & a & a \\ \hline
-				        a & a & a & a \\
-				        \hline
-				    \end{tabular}
-				\end{table}
-			}
+			\medskip\linebreak%
+			\begin{tabu} to \textwidth {|X[l]|X[4]|X[c]|X[c]|}
+				\toprule
+			   	\large\textbf{Degree} & \large\textbf{Institute} & \large\textbf{Year} & \large\textbf{Grades}\\
+			   \hline
+			   \large BTech (CSE) & \large Walchand College of Engineering, Sangli & \large 2015-19 & \large 8.36\\
+			   \hline
+			   \large HSC & \large Willingdon College, Sangli & \large 2014-15 & \large 89.03\%\\
+			   \hline
+			   \large SSC & \large S R Malu Highschool, Sangli & \large 2012-13 & \large 92.73\%\\
+			   \bottomrule
+			\end{tabu}
 		\end{LARGE}
 		\begin{minipage}[t]{0.35\textwidth}
 			\raggedright\smallskip
