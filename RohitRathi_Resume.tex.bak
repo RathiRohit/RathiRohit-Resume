@@ -6,6 +6,13 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \graphicspath{{Images/}}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
 \begin{document}
 	\begin{center}
 		\begin{minipage}[b]{0.33333\textwidth}
@@ -164,7 +171,7 @@
 			\end{LARGE}								
 		\end{minipage}
 		\linebreak\linebreak\linebreak\linebreak
-		\begin{minipage}[b]{0.33333\textwidth}
+		\begin{minipage}[t]{0.33333\textwidth}
 			\raggedright
 			\begin{LARGE}
 				\textbf{Publications:}\linebreak\linebreak%
@@ -173,13 +180,17 @@
 				}
 			\end{LARGE}
 		\end{minipage}%
-		\begin{minipage}[b]{0.33333\textwidth}
+		\begin{minipage}[t]{0.33333\textwidth}
 			\raggedright
 			\begin{LARGE}
-				
+				\textbf{References:}\linebreak\linebreak%
+				{\small
+					- \href{https://tex.stackexchange.com}{tex.stackexchange.com}\linebreak
+					- \href{https://github.com/lohitpenu/Internship-eYSIP-2018}{IITB eYSIP LaTex \& GIT tutorial}
+				}
 			\end{LARGE}
 		\end{minipage}%
-		\begin{minipage}[b]{0.33333\textwidth}
+		\begin{minipage}[t]{0.33333\textwidth}
 			\raggedright
 			\begin{LARGE}
 				
