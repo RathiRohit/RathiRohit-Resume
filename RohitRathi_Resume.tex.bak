@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{tabu}
+\usepackage{easytable}
 \usepackage{booktabs}
 \usepackage{hyperref}
 \graphicspath{{Images/}}
@@ -60,7 +61,7 @@
 			\raggedright\smallskip
 			\begin{LARGE}
 				\textbf{Career Objective:}\medskip\linebreak%
-				{\small To get acquinted with the business side of software development, starting from small startups where I will be able to explore my leadership qualities and problem solving skills.}\linebreak%		
+				{\small To get acquainted with the business side of software development, starting from small startups where I will be able to explore my leadership qualities and problem solving skills.}\linebreak%		
 			\end{LARGE}
 		\end{minipage}%
 		\linebreak\linebreak\linebreak
@@ -133,17 +134,18 @@
 		\begin{LARGE}
 			\textbf{Education:}
 			\medskip%
-			\begin{tabu} to \textwidth {|X[l]|X[4]|X[c]|X[c]|}
-				\toprule
-			   	\textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{Grades}\\
-			   \hline
-			   BTech (CSE) & Walchand College of Engineering, Sangli & 2015-19 & 8.36\\
-			   \hline
-			   HSC & Willingdon College, Sangli & 2014-15 & 89.03\%\\
-			   \hline
-			   SSC & S R Malu Highschool, Sangli & 2012-13 & 92.73\%\\
-			   \bottomrule
-			\end{tabu}
+			{\small
+				\begin{table}[h!]
+    				\begin{tabular}{|p{2in}|c|c|c|}
+				        \hline
+				        a & a & a & a \\ \hline
+				        a & a & a & a \\ \hline
+				        a & a & a & a \\ \hline
+				        a & a & a & a \\
+				        \hline
+				    \end{tabular}
+				\end{table}
+			}
 		\end{LARGE}
 		\begin{minipage}[t]{0.35\textwidth}
 			\raggedright\smallskip
@@ -186,7 +188,7 @@
 			\raggedright
 			\begin{large}
 				\textbf{References:}\linebreak\linebreak%
-				{\small For certificates \href{https://graphicswithc.wordpress.com/}{visit here}
+				{\small For certificates \href{https://drive.google.com/drive/folders/1bVXVQVaZzT2G5N63C0CRRbV6w13nRL-j?usp=sharing}{visit here}.
 				}
 			\end{large}
 		\end{minipage}%
