@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[margin=0.75in]{geometry}
 \usepackage{graphicx}
+\usepackage{enumitem}
 \graphicspath{{Images/}}
 \begin{document}
 	\begin{center}
@@ -78,10 +79,31 @@
 						DJango | Python | MachineLearning | WebDevelopment
 						\item \textbf{Logger for Cyberoam}, a chrome \& firefox extension for single click login into Cyberoam portals.\linebreak
 						ExtensionDevelopment | JS | HTML | CSS
-						\item \textbf{Check}, a fastpased arcade game for android built with Unity Engine.\linebreak
+						\item \textbf{Check}, an arcade game for android built with Unity Engine.\linebreak
 						UnityEngine | GameDevelopment
 					\end{enumerate}
 				}
+			\end{LARGE}								
+		\end{minipage}
+		\linebreak\linebreak\linebreak
+		\begin{minipage}[t]{0.35\textwidth}
+			\raggedright\smallskip
+			\begin{LARGE}
+				\textbf{Soft Skills:}\medskip%
+				{\small
+					\begin{enumerate}[label=(\roman*)]
+						\item 
+						\item JavaScript, HTML, CSS
+						\item JavaFX, DJango, Bootstrap, Unity
+						\item Algorithms, Data structures, Web Development
+					\end{enumerate}
+				}
+			\end{LARGE}
+		\end{minipage}%
+		\begin{minipage}[t]{0.65\textwidth}
+			\raggedright\smallskip
+			\begin{LARGE}
+				\textbf{Co-Curricular Achievements:}\medskip%
 			\end{LARGE}								
 		\end{minipage}
 	\end{center}
