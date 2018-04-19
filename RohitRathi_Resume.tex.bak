@@ -92,10 +92,10 @@
 				\textbf{Soft Skills:}\medskip%
 				{\small
 					\begin{enumerate}[label=(\roman*)]
-						\item 
-						\item JavaScript, HTML, CSS
-						\item JavaFX, DJango, Bootstrap, Unity
-						\item Algorithms, Data structures, Web Development
+						\item Good teamwork abilities
+						\item Quick grasping of new concepts
+						\item Curiosity \& dedication in trying new ideas
+						\item Good logical thinking \& problem solving abilities
 					\end{enumerate}
 				}
 			\end{LARGE}
@@ -104,6 +104,17 @@
 			\raggedright\smallskip
 			\begin{LARGE}
 				\textbf{Co-Curricular Achievements:}\medskip%
+				{\small
+					\begin{enumerate}
+						\item \textbf{Finalist in Smart India Hackathon 18}\linebreak
+						
+						\item \textbf{ACM ICPC 2017 - Asia Chennai Regionals}\linebreak
+						Secured \textbf{49th rank} in ACM ICPC 17 Asia regionals
+						\item \textbf{CodeJunkie++ COEP MindSpark17}\linebreak
+						\textbf{2nd Runner-up} in CodeJunkie++ competitive programming competition
+						\item \textbf{•}
+					\end{enumerate}
+				}
 			\end{LARGE}								
 		\end{minipage}
 	\end{center}
