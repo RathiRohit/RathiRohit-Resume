@@ -122,28 +122,48 @@
 		\raggedright\smallskip
 		\begin{LARGE}
 			\textbf{Education:}
-			\begin{tabu} to \textwidth {X[l]X[l]X[c]X[r]}
-			   \toprule
-			   \textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{Grades}\\
+			\medskip%
+			\begin{tabu} to \textwidth {|X[l]|X[4]|X[c]|X[c]|}
+				\toprule
+			   	\textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{Grades}\\
 			   \hline
 			   BTech (CSE) & Walchand College of Engineering, Sangli & 2015-19 & 8.36\\
 			   \hline
 			   HSC & Willingdon College, Sangli & 2014-15 & 89.03\%\\
 			   \hline
-			   
+			   SSC & S R Malu Highschool, Sangli & 2012-13 & 92.73\%\\
 			   \bottomrule
 			\end{tabu}
-			\begin{table}[h!]
-				\begin{center}
-				    \begin{tabular}{l|l|c|r}
-				    	\textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{Grades}\\
-					    \hline
-					    BTech (CSE) & Walchand College of Engineering, Sangli & 2015-19 & 8.36\\
-						HSC & Willingdon College, Sangli & 2014-15 & 89.03\%\\
-						SSC & S R Malu Highschool, Sangli & 2012-13 & 92.73\%\\
-				    \end{tabular}
-				\end{center}
-			\end{table}
 		\end{LARGE}
+		\begin{minipage}[t]{0.35\textwidth}
+			\raggedright\smallskip
+			\begin{LARGE}
+				\textbf{Interests:}\medskip%
+				{\small
+					\begin{enumerate}[label=(\alph*)]
+						\item Competitive coding
+						\item Ethical hacking
+						\item Books, Music \& travelling
+						\item Cricket, Chess and Badminton
+					\end{enumerate}
+				}
+			\end{LARGE}
+		\end{minipage}%
+		\begin{minipage}[t]{0.65\textwidth}
+			\raggedright\smallskip
+			\begin{LARGE}
+				\textbf{Co-Curricular Achievements:}\medskip%
+				{\small
+					\begin{enumerate}
+						\item \textbf{Finalist in Smart India Hackathon 18}
+						\item \textbf{ACM ICPC 2017 - Asia Chennai Regionals}\linebreak
+						Secured \textbf{49th rank} in ACM ICPC 17 Asia regionals
+						\item \textbf{CodeJunkie++ COEP MindSpark17}\linebreak
+						\textbf{2nd Runner-up} in CodeJunkie++ competitive programming competition
+						\item \textbf{3} times \textbf{winner} and \textbf{3} times \textbf{Runner-up} in different competitive coding competitions
+					\end{enumerate}
+				}
+			\end{LARGE}								
+		\end{minipage}
 	\end{center}
 \end{document}
