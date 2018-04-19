@@ -2,6 +2,8 @@
 \usepackage[margin=0.75in]{geometry}
 \usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{tabu}
+\usepackage{booktabs}
 \graphicspath{{Images/}}
 \begin{document}
 	\begin{center}
@@ -116,5 +118,22 @@
 				}
 			\end{LARGE}								
 		\end{minipage}
+		\linebreak\linebreak\linebreak
+		\raggedright\smallskip
+		\begin{LARGE}
+			\textbf{Education:}
+			\medskip%
+			\begin{tabu} to \textwidth {|X[l]|X[4]|X[c]|X[c]|}
+				\toprule
+			   	\textbf{Degree} & \textbf{Institute} & \textbf{Year} & \textbf{Grades}\\
+			   \hline
+			   BTech (CSE) & Walchand College of Engineering, Sangli & 2015-19 & 8.36\\
+			   \hline
+			   HSC & Willingdon College, Sangli & 2014-15 & 89.03\%\\
+			   \hline
+			   SSC & S R Malu Highschool, Sangli & 2012-13 & 92.73\%\\
+			   \bottomrule
+			\end{tabu}
+		\end{LARGE}
 	\end{center}
 \end{document}
