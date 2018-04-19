@@ -4,6 +4,7 @@
 \usepackage{enumitem}
 \usepackage{tabu}
 \usepackage{booktabs}
+\usepackage{hyperref}
 \graphicspath{{Images/}}
 \begin{document}
 	\begin{center}
@@ -152,18 +153,37 @@
 		\begin{minipage}[t]{0.65\textwidth}
 			\raggedright\smallskip
 			\begin{LARGE}
-				\textbf{Co-Curricular Achievements:}\medskip%
+				\textbf{Extra-Curricular Activities:}\medskip%
 				{\small
-					\begin{enumerate}
-						\item \textbf{Finalist in Smart India Hackathon 18}
-						\item \textbf{ACM ICPC 2017 - Asia Chennai Regionals}\linebreak
-						Secured \textbf{49th rank} in ACM ICPC 17 Asia regionals
-						\item \textbf{CodeJunkie++ COEP MindSpark17}\linebreak
-						\textbf{2nd Runner-up} in CodeJunkie++ competitive programming competition
-						\item \textbf{3} times \textbf{winner} and \textbf{3} times \textbf{Runner-up} in different competitive coding competitions
-					\end{enumerate}
+					\begin{itemize}
+						\item Successful organization of Alumni Meet 2015 \& 2016 at WCE through SOFTA Club of WCE, Sangli.
+						\item Organization of Jallosh 2k17, an Annual SOFTA Gathering.
+						\item Participation in various sport events of Chess \& Carrom.
+					\end{itemize}
 				}
 			\end{LARGE}								
 		\end{minipage}
+		\linebreak\linebreak\linebreak\linebreak
+		\begin{minipage}[b]{0.33333\textwidth}
+			\raggedright
+			\begin{LARGE}
+				\textbf{Publications:}\linebreak\linebreak%
+				{\small
+				\textbf{Graphics With C} | A C-graphics blog with some experimental programs. \href{https://graphicswithc.wordpress.com/}{Visit here}.
+				}
+			\end{LARGE}
+		\end{minipage}%
+		\begin{minipage}[b]{0.33333\textwidth}
+			\raggedright
+			\begin{LARGE}
+				
+			\end{LARGE}
+		\end{minipage}%
+		\begin{minipage}[b]{0.33333\textwidth}
+			\raggedright
+			\begin{LARGE}
+				
+			\end{LARGE}
+		\end{minipage}%
 	\end{center}
 \end{document}
