@@ -1,10 +1,11 @@
 \documentclass[11pt]{article}
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.7in]{geometry}
 \usepackage{graphicx}
 \usepackage{enumitem}
 \usepackage{tabu}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{color}
 \graphicspath{{Images/}}
 \usepackage{xcolor}
 \hypersetup{
@@ -13,6 +14,7 @@
     citecolor={blue!50!black},
     urlcolor={blue!80!black}
 }
+\pagenumbering{gobble}
 \begin{document}
 	\begin{center}
 		\begin{minipage}[b]{0.33333\textwidth}
@@ -24,7 +26,7 @@
 		\begin{minipage}[b]{0.33333\textwidth}
 			\centering
 			\begin{huge}
-				\textbf{Rohit G Rathi}		
+				\textbf{Rohit G Rathi}
 			\end{huge}
 		\end{minipage}%
 		\begin{minipage}[b]{0.33333\textwidth}
@@ -35,39 +37,19 @@
 		\end{minipage}%
 		\bigskip
 		\hrule
-		\bigskip
-		\smallskip
-		\begin{minipage}[t]{0.3\textwidth}
+		\vspace{0.5cm}
+		\begin{minipage}[t]{1\textwidth}
 			\raggedright\smallskip
 			\begin{LARGE}
-				\textbf{Personal Details:}\medskip\linebreak%
-				{\small Father's Name: Girish I. Rathi}\linebreak%
-				{\small Mother's Name: Leela G. Rathi}\linebreak%
-				{\small Sex: Male}\linebreak%
-				{\small Date of Birth: 27-Nov-1997}\linebreak%
-				{\small Nationality: Indian}\linebreak%
-				{\small Marital Status: Unmarried}\linebreak%
+				\textbf{Career objective:}\medskip\linebreak%
+				{\small To get acquainted with the business side of software development and tryout different fields of computer science where I will be able to explore my leadership qualities and problem solving skills.}\linebreak%
 			\end{LARGE}
 		\end{minipage}%
-		\begin{minipage}[t]{0.4\textwidth}
-			\centering
-			\strut\vspace*{-\baselineskip}\newline
-			\setlength{\fboxsep}{4pt}%
-			\setlength{\fboxrule}{1pt}%
-			\fbox{\includegraphics[width=3cm, height=4cm]{r}}%
-		\end{minipage}%
-		\begin{minipage}[t]{0.3\textwidth}
-			\raggedright\smallskip
-			\begin{LARGE}
-				\textbf{Career Objective:}\medskip\linebreak%
-				{\small To get acquainted with the business side of software development, starting from small startups where I will be able to explore my leadership qualities and problem solving skills.}\linebreak%		
-			\end{LARGE}
-		\end{minipage}%
-		\linebreak\linebreak\linebreak
+		\vspace{0.3cm}
 		\begin{minipage}[t]{0.35\textwidth}
 			\raggedright\smallskip
 			\begin{LARGE}
-				\textbf{Technical Skills:}\medskip%
+				\textbf{Technical skills:}\medskip%
 				{\small
 					\begin{itemize}
 						\item C++, C, Java, Python
@@ -76,46 +58,65 @@
 						\item Web Development, Image Processing, Software Development
 					\end{itemize}
 				}
-				\small \textbf{Algorithms, Data structures, Web Development \& DBMS}
+				\small \textbf{Algorithms, Data structures, Web Development \& OS}
+			\end{LARGE}
+			\\\vspace{0.85cm}
+            \begin{LARGE}
+				\textbf{Experience:}\medskip%
+				{\small
+					\vspace{0.2cm}
+					\newline
+					\textbf{Summer Internship at IIT Bombay:}
+					\newline
+					Developed a Smart assistant for IoT using DialogFlow. Desinged and implemented own JS library from scratch for converting natural english phrases into Cron expressions.
+					\medskip
+					\\DialogFlow | AWS-IoT | JavaScript
+				}
+			\end{LARGE}
+			\\\vspace{0.6cm}
+            \begin{LARGE}
+				\textbf{Interests:}\smallskip%
+				{\small
+					\begin{enumerate}[leftmargin=*,label=-]
+						\item Competitive coding
+						\item Ethical hacking
+						\item Books, Music \& travelling
+						\item Cricket, Chess and Badminton
+					\end{enumerate}
+				}
+			\end{LARGE}
+			\vspace{0.5cm}
+			\begin{LARGE}
+				\textbf{Soft skills:}\smallskip%
+				{\small
+					\begin{itemize}[leftmargin=*]
+						\item Good teamwork \& logical thinking
+						\item Quick grasping, curiosity \& dedication in trying new ideas
+					\end{itemize}
+				}
 			\end{LARGE}
 		\end{minipage}%
-		\begin{minipage}[t]{0.65\textwidth}
+		\hspace{0.55cm}
+		\begin{minipage}[t]{0.6\textwidth}
 			\raggedright\smallskip
 			\begin{LARGE}
 				\textbf{Projects:}\medskip%
 				{\small
 					\begin{enumerate}
-						\item \textbf{QuickTransfer}, a PC to PC cross-platform file sharing software.\linebreak
+						\item \textbf{QuickTransfer}, PC to PC cross-platform file sharing software.\linebreak
 						JavaFX | SocketProgramming
-						\item \textbf{BillDesk}, a webapp for paperless billing and sales prediction.
-						DJango | Python | MachineLearning | WebDevelopment
 						\item \textbf{Logger for Cyberoam}, a chrome \& firefox extension for single click login into Cyberoam portals.\linebreak
 						ExtensionDevelopment | JS | HTML | CSS
-						\item \textbf{Check}, an arcade game for android built with Unity Engine.\linebreak
+						\item \textbf{BillDesk}, a webapp for paperless billing and sales prediction.\linebreak
+						DJango | Python | MachineLearning | WebDevelopment
+						\item \textbf{Check}, an arcade game for android, built with Unity Engine.\linebreak
 						UnityEngine | GameDevelopment
 					\end{enumerate}
 				}
-			\end{LARGE}								
-		\end{minipage}
-		\linebreak\linebreak\linebreak
-		\begin{minipage}[t]{0.35\textwidth}
-			\raggedright\smallskip
-			\begin{LARGE}
-				\textbf{Soft Skills:}\medskip%
-				{\small
-					\begin{enumerate}[label=(\roman*)]
-						\item Good teamwork abilities
-						\item Quick grasping of new concepts
-						\item Curiosity \& dedication in trying new ideas
-						\item Good logical thinking \& problem solving abilities
-					\end{enumerate}
-				}
 			\end{LARGE}
-		\end{minipage}%
-		\begin{minipage}[t]{0.65\textwidth}
-			\raggedright\smallskip
-			\begin{LARGE}
-				\textbf{Co-Curricular Achievements:}\medskip%
+			\vspace{0.55cm}
+            \begin{LARGE}
+				\textbf{Co-Curricular achievements:}\medskip%
 				{\small
 					\begin{enumerate}
 						\item \textbf{Finalist in Smart India Hackathon 18}
@@ -126,86 +127,28 @@
 						\item \textbf{3} times \textbf{winner} and \textbf{3} times \textbf{Runner-up} in different competitive coding competitions
 					\end{enumerate}
 				}
-			\end{LARGE}								
-		\end{minipage}
-		\linebreak\linebreak\linebreak
-		\raggedright\smallskip
-		\begin{LARGE}
-			\textbf{Education:}
-			\medskip\linebreak%
-			\begin{tabu} to \textwidth {|X[l]|X[4]|X[c]|X[c]|}
-				\toprule
-			   	\large\textbf{Degree} & \large\textbf{Institute} & \large\textbf{Year} & \large\textbf{Grades}\\
-			   \hline
-			   \large BTech (CSE) & \large Walchand College of Engineering, Sangli & \large 2015-19 & \large 8.36\\
-			   \hline
-			   \large HSC & \large Willingdon College, Sangli & \large 2014-15 & \large 89.03\%\\
-			   \hline
-			   \large SSC & \large S R Malu Highschool, Sangli & \large 2012-13 & \large 92.73\%\\
-			   \bottomrule
-			\end{tabu}
-		\end{LARGE}
-		\begin{minipage}[t]{0.35\textwidth}
-			\raggedright\smallskip
-			\begin{LARGE}
-				\textbf{Interests:}\medskip%
-				{\small
-					\begin{enumerate}[label=(\alph*)]
-						\item Competitive coding
-						\item Ethical hacking
-						\item Books, Music \& travelling
-						\item Cricket, Chess and Badminton
-					\end{enumerate}
-				}
+			\end{LARGE}
+			\vspace{0.55cm}
+            \begin{LARGE}
+				\textbf{Education:}
+				\medskip\linebreak%
+				\taburulecolor{lightgray}
+				\begin{tabu} to \textwidth {X[1.15l]X[6l]}
+			   		\normalsize BTech (CSE) & {\normalsize Walchand College of Engineering, Sangli} \linebreak \normalsize 2015-18 \hspace{1cm}\normalsize CPI: 8.19\medskip\\
+			   		\hline
+			   		\normalsize HSC & \normalsize Willingdon College, Sangli \linebreak \normalsize 2014-15 \hspace{1cm}\normalsize 89.03\%\medskip\\
+					\hline
+				    \normalsize SSC & \normalsize S R Malu Highschool, Sangli \linebreak\normalsize 2012-13 \hspace{1cm}\normalsize 92.73\%\medskip\\
+				\end{tabu}
 			\end{LARGE}
 		\end{minipage}%
-		\begin{minipage}[t]{0.65\textwidth}
-			\raggedright\smallskip
-			\begin{LARGE}
-				\textbf{Extra-Curricular Activities:}\medskip%
-				{\small
-					\begin{itemize}
-						\item Successful organization of Alumni Meet 2015 \& 2016 at WCE through SOFTA Club of WCE, Sangli.
-						\item Organization of Jallosh 2k17, an Annual SOFTA Gathering.
-						\item Participation in various sport events of Chess \& Carrom.
-					\end{itemize}
-				}
-			\end{LARGE}								
-		\end{minipage}
-%		\linebreak\linebreak\linebreak\linebreak
-%		\begin{minipage}[t]{0.36\textwidth}
-%			\raggedright
-%			\begin{large}
-%				\textbf{Publications:}\linebreak\linebreak%
-%				{\small
-%				\textbf{Graphics With C} | A C-Graphics blog with some experimental programs\linebreak\href{https://graphicswithc.wordpress.com/}{Visit here}.
-%				}
-%			\end{large}
-%		\end{minipage}%
-%		\begin{minipage}[t]{0.36\textwidth}
-%			\raggedright
-%			\begin{large}
-%				\textbf{References:}\linebreak\linebreak%
-%				{\small 
-%					Mr. Swapnil Sontakke (Teacher)\linebreak
-%					(+91) 8149238847\linebreak
-%					swapnil.sontakke@walchandsangli.ac.in\linebreak\medskip\hrule\medskip
-%					For certificates \href{https://drive.google.com/drive/folders/1bVXVQVaZzT2G5N63C0CRRbV6w13nRL-j?usp=sharing}{visit here}.
-%				}
-%			\end{large}
-%		\end{minipage}%
-%		\begin{minipage}[t]{0.28\textwidth}
-%			\raggedright
-%			\begin{large}
-%				\textbf{Training \& Internships:}\linebreak\linebreak%
-%				{\small Nothing to show here yet!}
-%			\end{large}
-%		\end{minipage}%
-		\linebreak\linebreak\linebreak\linebreak
-		\textbf{Declaration:} I hereby declare that all the information provided in this resume is true to the best of my knowledge and belief.\linebreak\linebreak\linebreak
+		\linebreak\linebreak\linebreak
+		\medskip
+		\raggedright
+		\textbf{Declaration:} I hereby declare that all the information provided in this resume is true to the best of my knowledge and belief.\linebreak\linebreak
 		\begin{minipage}[t]{0.5\textwidth}
 			\raggedright
-			\textbf{Date:} 10-May-2018
+			\textbf{Date:} \today
 		\end{minipage}%
 		\begin{minipage}[t]{0.5\textwidth}
 			\raggedleft
